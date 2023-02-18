@@ -473,19 +473,28 @@
           </label>
           <label class="modal-form-field">
             <span class="field-description">Phone</span>
-            <input
-              type="tel"
-              name="user-phone"
-              class="modal-form-input"
-              required
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-              title="XXX-XXX-XX-XX"
-              />
-              
+            <div class="modal-form-input-wrapper">
+              <input
+                type="tel"
+                name="user-phone"
+                class="modal-form-input"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="XXX-XXX-XX-XX"
+                />
+                <svg class="modal-form-input-icon" width="18px" height="24px">
+                  <use href="./images/sprite.svg#icon-modal-form-phone"></use>
+                </svg>
+            </div>              
           </label>
           <label class="modal-form-field">
             <span class="field-description">Email</span>
-            <input type="email" name="user-email" class="modal-form-input" required/>            
+            <div class="modal-form-input-wrapper">
+              <input type="email" name="user-email" class="modal-form-input" required/> 
+               <svg class="modal-form-input-icon" width="18px" height="24px">
+                    <use href="./images/sprite.svg#icon-modal-form-email"></use>
+                  </svg> 
+            </div>          
           </label>
           <label class="modal-form-field">
             <span class="field-description">Comment</span>
