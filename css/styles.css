@@ -424,6 +424,10 @@ body {
   margin-bottom: 24px;
 }
 
+.check-description-link {
+  color: var(--primary-logo-text-color);
+}
+
 .check-description::before {
   content: '';
   display: block;
@@ -450,7 +454,7 @@ body {
 .send {
   align-self: center;
   padding-left: 65px;
-  padding-right: 65px;
+  padding-right: 65px;  
 }
 
 
