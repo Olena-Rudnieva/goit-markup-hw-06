@@ -717,6 +717,11 @@ body {
   margin-bottom: 16px;
 }
 
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .subscribe-btn {
   width: 165px;
   height: 40px;
