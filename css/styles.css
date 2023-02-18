@@ -22,6 +22,7 @@
   --card-color: #4d5ae5;
   --modal-background: #fcfcfc;
   --modal-form-text-color: #8E8F99;
+  --secondary-modal-form-text-color: #757575;
 }
 
 h1,
@@ -396,7 +397,7 @@ body {
   height: 120px;
   padding: 8px 16px;  
   font-size: 12px;
-  line-height: 1.33px;
+  line-height: 1.33;
   letter-spacing: 0.04em;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -413,6 +414,16 @@ body {
   border-color: var(--button-color);
 }
 
+.check-description {  
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.33; 
+  letter-spacing: 0.04em;
+  color: var(--secondary-modal-form-text-color);
+  margin-bottom: 24px;
+}
+
 .check-description::before {
   content: '';
   display: block;
@@ -421,6 +432,7 @@ body {
   border: 1.25px solid var(--secondary-bg-color);
   border-radius: 2px;
   cursor: pointer;
+  margin-right: 8px;
 }
 
 .modal-form-check:checked + .check-description::before {
@@ -428,10 +440,19 @@ body {
   border: 1.25px solid var(--accent-color);
   background-image: url(../images/privacy-policy.svg);
   background-repeat: no-repeat;
-  background-position: center;
-
-  
+  background-position: center;  
 }
+
+.modal-form-check:focus + .check-description::before {
+  border: 1.25px solid var(--accent-color);
+}
+
+.send {
+  align-self: center;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
 
 
 /* ============================ /Hero ====================== */
