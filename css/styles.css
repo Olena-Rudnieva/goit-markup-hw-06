@@ -413,6 +413,17 @@ body {
   border-color: var(--button-color);
 }
 
+.check-description::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid var(--secondary-bg-color);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
 /* ============================ /Hero ====================== */
 
 /* =========================== Features ==================== */
