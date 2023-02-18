@@ -570,6 +570,26 @@ body {
   background-color: var(--third-icon-bg-color);
 }
 
+.subscribe-title {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;  
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-dark);
+  margin-bottom: 16px;
+}
+
+.subscribe-btn {
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 /* =========================== /Footer ===================== */
 
 /* CТИЛІ portfolio.html */
