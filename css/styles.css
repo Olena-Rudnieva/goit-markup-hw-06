@@ -295,6 +295,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-close-btn {
@@ -322,6 +323,17 @@ body {
 .modal-close-btn:focus .modal-close-icon {
   fill: var(--secondary-text-color-theme-dark);
 }
+
+.modal-title {  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;  
+  color: var(--logo-text-color-theme-light);  
+}
+
+
 
 /* ============================ /Hero ====================== */
 
